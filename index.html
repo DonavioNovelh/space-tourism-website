@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            font-family: 'Barlow Condensed', sans-serif;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+        
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transform:  all 4s;
+            overflow: hidden;
+            color: white;
+            transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+
+
+
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            background: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-clip: inherit;
+        }
+        .header {
+            display: flex;
+            padding-top: 40px;
+            flex-direction: row;
+            align-items: center;
+            gap: 10%;
+            justify-content: space-around;
+          
+        }
+        .nav {
+            position: relative;
+            display: flex;
+            flex-grow: 1;
+            height: 50px;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .linha {
+
+            width: 200px;
+            flex-grow: 1;
+            width: 20px;
+
+        }
+        
+        .links {
+            flex-grow: 1;
+            backdrop-filter: blur(50px);
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        hr {
+            display: block;
+            position: relative;
+            z-index: 999999;
+            left: 30px;
+        }
+        a {
+           width: fit-content;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            
+            height: 100%;
+            display: flex;
+            align-items: center;
+          
+        
+        }
+
+        .linkinho {
+           
+        }
+        img {
+            padding-left: 40px;
+        }
+        .conteiner {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            padding:0px 180px;
+            gap: 30%;
+        }
+        h2 {
+            font-size:18px;
+            font-weight: 100;
+            padding-bottom: 15px;
+            text-transform: uppercase;
+
+        }
+
+        .p1 {
+            font-size: 70pt;
+            padding-bottom: 15px;
+            text-transform: uppercase;
+            font-family: 'Bellefair', serif;
+
+        }
+        .p2 {
+            font-size: normal;
+            font-weight: 100;
+            padding-bottom: 20px;
+            text-align: justify;
+            text-transform: inherit;
+        }
+        a:hover {
+            border-bottom:2px solid white;
+            width: fit-content;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="img p">
+            <img src="space-tourism-website-main/starter-code/assets/shared/logo.svg" >
+        </div>
+        <div class="nav">
+            <hr class="linha">
+            <div class="links">
+                <a class="linkinho" href="">00 Home</a>
+                <a href="">01 Destination</a>
+                <a href="">02 Crew</a>
+                <a href="">03 Technology</a>
+            </div>
+        </div>
+    </div>
+    <div class="conteiner">
+        <div class="side1">
+            <h2>So, you want to travel to</h2>
+            <p class="p1">Space</p>
+            <p class="p2">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relaxe because we'll give you a truly out of this world experience!</p>
+        </div>
+
+        <div class="side2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugiat aliquid unde commodi veritatis nisi aperiam, beatae nesciunt velit reprehenderit distinctio impedit magni labore ut dolorem ea id, totam accusamus?</p>
+           
+
+        </div>
+
+    </div>
+</body>
+</html>
