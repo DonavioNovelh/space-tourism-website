@@ -1,10 +1,17 @@
 import React from 'react'
 
 const Titulo = () => {
+  console.log(document.querySelector('body'))
+  let a = document.querySelector('body')
+  
+  
   return (
-    <div>
-      <h1>Hawenanananan</h1>
-      <img src="../../" alt="" />
+    <div className='flex text-white justify-center items-center 
+     '>
+     
+      <img src="../../space-tourism-website-main/starter-code/assets/shared/logo.svg" alt=""  />
+
+      
     </div>
   );
 }
