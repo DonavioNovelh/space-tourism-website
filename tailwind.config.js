@@ -4,9 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern":
+        homedesktop:
           "url('src/assets/ifundo/ihome/background-home-desktop.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        hometablet: "url('src/assets/ifundo/ihome/background-home-tablet.jpg')",
+        homephone: "url('src/assets/ifundo/ihome/background-home-mobile.jpg')",
       },
       colors: {
         primary: "#1E40AF", // Azul escuro
@@ -27,4 +28,3 @@ export default {
   },
   plugins: [],
 };
-

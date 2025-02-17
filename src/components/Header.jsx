@@ -2,10 +2,10 @@ import React from 'react'
 
 import Logo from '../assets/icon/logo.svg'
 import Home from './Home';
-
+let bghome ='bg-homedesktop';
 const Header = () => {
   return (
-    <div className="h-full w-full bg-hero-pattern bg-cover bg-center bg-fixed pt-8 pl-20 flex justify-between flex-col">
+    <div className={`h-full w-full ${bghome} bg-cover bg-center bg-fixed pt-8 pl-20 flex justify-between flex-col`}>
       <div className=" h-14 relative flex items-center justify-between">
         <img src={Logo} alt="" />
         <hr className="w-96 absolute left-40 z-20" />
@@ -37,7 +37,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <Home/>
+      {/*<Home/>*/}
     </div>
   );
 }
