@@ -8,6 +8,8 @@ export default {
           "url('src/assets/ifundo/ihome/background-home-desktop.jpg')",
         hometablet: "url('src/assets/ifundo/ihome/background-home-tablet.jpg')",
         homephone: "url('src/assets/ifundo/ihome/background-home-mobile.jpg')",
+        martedesktop:
+          "url('./src/assets/ifundo/destination/background-destination-desktop.jpg')",
       },
       colors: {
         primary: "#1E40AF", // Azul escuro
