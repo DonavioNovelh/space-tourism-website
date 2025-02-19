@@ -26,6 +26,10 @@ export default {
         huge: "7rem", // maior que xl
         custom: "1rem", // tamanho personalizado
       },
+      spacing: {
+        128: "27rem",
+      },
+      
     },
   },
   plugins: [],
