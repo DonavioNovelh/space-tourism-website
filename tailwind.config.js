@@ -10,6 +10,7 @@ export default {
         homephone: "url('src/assets/ifundo/ihome/background-home-mobile.jpg')",
         martedesktop:
           "url('./src/assets/ifundo/destination/background-destination-desktop.jpg')",
+        crewdesk: "url('./src/assets/ifundo/crew/background-crew-desktop.jpg')",
       },
       colors: {
         primary: "#1E40AF", // Azul escuro
@@ -28,8 +29,33 @@ export default {
       },
       spacing: {
         128: "27rem",
+        boms: "85%",
       },
-      
+      animation: {
+        spinslow: "spin 500s linear infinite",
+        fadeIn: "fadeIn 2s ease-in-out",
+        zoomInOut: "zoomInOut 20s linear infinite",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        zoomInOut: {
+          "0%": {
+            backgroundSize: "110%",
+            backgroundPosition: "center center",
+          },
+          "50%": {
+            backgroundSize: "120%",
+            backgroundPosition: "center center",
+          },
+          "100%": {
+            backgroundSize: "110%",
+            backgroundPosition: "center center",
+          },
+        },
+      },
     },
   },
   plugins: [],

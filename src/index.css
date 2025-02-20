@@ -2,6 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@theme {
+  --text-big: 16rem;
+  --text-big--line-height: 18rem;
+  --text-big--font-weight: 550;
+  --text-big--letter-spacing: -0.025em;
+}
 
 
 

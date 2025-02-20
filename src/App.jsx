@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Header from "./components/Header";
+import { BrowserRouter } from "react-router-dom";
 
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
 
   return (
     <div className="h-screen w-screen ">
-      <Header/>
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>
     </div>
   );
 }

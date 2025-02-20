@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <div className=" flex w-48 items-center justify-center ">
-        <span className="text-3xl w-40 h-40 bg-white rounded-full flex items-center justify-center font-laga font-extralight mb-9">
+        <span className="text-3xl w-40 h-40 bg-white rounded-full flex items-center justify-center font-laga font-extralight mb-9 ">
           Explore
         </span>
       </div>
