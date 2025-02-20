@@ -5,9 +5,9 @@ export default {
     extend: {
       backgroundImage: {
         homedesktop:
-          "url('src/assets/ifundo/ihome/background-home-desktop.jpg')",
-        hometablet: "url('src/assets/ifundo/ihome/background-home-tablet.jpg')",
-        homephone: "url('src/assets/ifundo/ihome/background-home-mobile.jpg')",
+          "url('./src/assets/ifundo/ihome/background-home-desktop.jpg')",
+        hometablet: "url('./src/assets/ifundo/ihome/background-home-tablet.jpg')",
+        homephone: "url('./src/assets/ifundo/ihome/background-home-mobile.jpg')",
         martedesktop:
           "url('./src/assets/ifundo/destination/background-destination-desktop.jpg')",
         crewdesk: "url('./src/assets/ifundo/crew/background-crew-desktop.jpg')",
