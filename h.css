@@ -1,4 +1,7 @@
 b {
-    background-image: url(./src/assets/ifundo/crew/background-crew-desktop.jpg) ;
+    background-image: url(./src/assets/ifundo/destination/) ;
+        background-image: url(src/assets/ifundo/crew/background-crew-mobile.jpg)
+                        url() ;
+
     display: flex;
 }

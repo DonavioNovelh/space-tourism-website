@@ -6,11 +6,18 @@ export default {
       backgroundImage: {
         homedesktop:
           "url('/src/assets/ifundo/ihome/background-home-desktop.jpg')",
-        hometablet: "url('/src/assets/ifundo/ihome/background-home-tablet.jpg')",
+        hometablet:
+          "url('/src/assets/ifundo/ihome/background-home-tablet.jpg')",
         homephone: "url('/src/assets/ifundo/ihome/background-home-mobile.jpg')",
         martedesktop:
           "url('/src/assets/ifundo/destination/background-destination-desktop.jpg')",
+        martetablet:
+          "url('/src/assets/ifundo/destination/background-destination-tablet.jpg')",
+        martephone:
+          "url('/src/assets/ifundo/destination/background-destination-tablet.jpg')",
         crewdesk: "url('/src/assets/ifundo/crew/background-crew-desktop.jpg')",
+        crewtablet: "url('src/assets/ifundo//crew/background-crew-tablet.jpg')",
+        crewphone: "url('/src/assets/ifundo/crew/background-crew-mobile.jpg')",
       },
       colors: {
         primary: "#1E40AF", // Azul escuro

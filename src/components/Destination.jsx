@@ -54,7 +54,7 @@ const Destination = () => {
 
       <div className="pai1 flex-1 h-96 w-full flex flex-row justify-evenly gap-6">
         {/* Imagem com animação */}
-        <AnimatePresence mode="wait">
+      
           <motion.img
             key={pablo}
             src={planetas[pablo].fotoContinente}
@@ -65,7 +65,7 @@ const Destination = () => {
             transition={{ duration: 0.4, x: 0, }}
             className="self-start w-80 h-80 mt-6"
           />
-        </AnimatePresence>
+    
 
         <div className="pai2 w-1/2 pt-2 flex flex-col m-6 mt-9">
           <div className="pailink flex gap-4 font-condensada text-1xl font-thin uppercase h-8">
@@ -87,7 +87,6 @@ const Destination = () => {
           </div>
 
           {/* Texto com animação */}
-          <AnimatePresence mode="wait">
             <motion.div
               key={pablo}
               initial={{ opacity: 0, y: -10 }}
@@ -122,7 +121,6 @@ const Destination = () => {
                 </div>
               </div>
             </motion.div>
-          </AnimatePresence>
         </div>
       </div>
     </div>
