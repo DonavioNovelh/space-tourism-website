@@ -1,17 +1,10 @@
 import React from 'react'
-import { motion } from "motion/react";
-
 
 export default function Home() {
   return (
-    <motion.div
-    animate={{ opacity: 1, y: 0 }}
-    initial={{ opacity: 0, y: 50 }}
-    transition={{ duration: 0.8 }}
-
-    className=" flex sm:flex-col sm:justify-c sm:items-center justify-between h-2/3 pl-40 pr-40 text-justify sm:h-full">
-      <div className=" w-96 sm: flex flex-col items-center">
-        <h1 className="text-gray-300  uppercase tracking-wider text-3xl font-condenseda font-light">
+    <div className=" flex justify-between h-2/3 pl-40 pr-40 text-justify">
+      <div className=" w-96">
+        <h1 className="text-gray-300  uppercase tracking-wider text-xl font-condenseda font-light">
           So, you want to travel to
         </h1>
         <h2 className="text-huge uppercase tracking-widest font-laga text-white h-fit">Space
@@ -29,6 +22,6 @@ export default function Home() {
           Explore
         </span>
       </div>
-    </motion.div>
+    </div>
   );
 }

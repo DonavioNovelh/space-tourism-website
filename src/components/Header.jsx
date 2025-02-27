@@ -17,12 +17,12 @@ const Header = () => {
  );
   return (
     <div
-      className={`h-full w-full bg-cover ${back} bg-center bg-fixed pt-8 pl-20 flex justify-between flex-col animate-moveBackground overflow-hidden`}
+      className={`h-full w-full bg-cover ${back} bg-center bg-fixed pt-8 pl-20 flex justify-between flex-col animate-moveBackground`}
     >
       <div className=" h-14 relative flex items-center justify-between">
         <img src={Logo} alt="" />
-        <hr className="w-96 absolute left-40 z-20 sm:hidden " />
-        <div className="text-white w-7/12 h-full flex items-center justify-center gap-5 pr-11 font-condensada text-lg sm:sm:w-[80%] sm:justify-between bg-slate-500 backdrop-blur-[200px]">
+        <hr className="w-96 absolute left-40 z-20" />
+        <div className="text-white w-7/12 h-full flex items-center justify-center gap-5 pr-11 backdrop-blur-3xl font-condensada text-lg">
           <Link
             to="/"
             className="flex gap-2 w-fit hover:border-b-2 h-full items-center"
